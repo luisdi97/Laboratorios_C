@@ -1,7 +1,3 @@
-#include <stdio.h>
-#include <stdlib.h>
-#include <math.h>
-
 /*
 Autor: Luis Diego Araya Campos
 
@@ -10,6 +6,10 @@ el máximo común divisor. Si la cantidad de argumentos es incorrecta da mensaje
 de error. Si algunos de los valores o ambos son negativos también da un mensaje
 de error.
 */
+
+#include <stdio.h>
+#include <stdlib.h>
+#include <math.h>
 
 int MCD(int x, int y) {
     /*
